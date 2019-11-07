@@ -1,0 +1,17 @@
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServices.deps.json
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServices.runtimeconfig.json
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServices.runtimeconfig.dev.json
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServices.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServices.pdb
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\obj\Debug\netcoreapp2.1\FormationWebServices.csproj.CoreCompileInputs.cache
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\obj\Debug\netcoreapp2.1\FormationWebServices.RazorAssemblyInfo.cache
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\obj\Debug\netcoreapp2.1\FormationWebServices.RazorAssemblyInfo.cs
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\obj\Debug\netcoreapp2.1\FormationWebServices.AssemblyInfoInputs.cache
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\obj\Debug\netcoreapp2.1\FormationWebServices.AssemblyInfo.cs
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\obj\Debug\netcoreapp2.1\FormationWebServices.RazorTargetAssemblyInfo.cache
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\obj\Debug\netcoreapp2.1\FormationWebServices.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\obj\Debug\netcoreapp2.1\FormationWebServices.pdb
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServicesBusiness.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\obj\Debug\netcoreapp2.1\FormationWebServices.csprojAssemblyReference.cache
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServicesBusiness.pdb
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\obj\Debug\netcoreapp2.1\FormationWebServices.csproj.CopyComplete

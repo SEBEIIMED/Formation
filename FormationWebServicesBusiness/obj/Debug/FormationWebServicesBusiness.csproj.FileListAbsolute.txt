@@ -1,0 +1,6 @@
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\FormationWebServicesBusiness.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\FormationWebServicesBusiness.pdb
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\obj\Debug\FormationWebServicesBusiness.csprojAssemblyReference.cache
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\obj\Debug\FormationWebServicesBusiness.csproj.CoreCompileInputs.cache
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\obj\Debug\FormationWebServicesBusiness.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\obj\Debug\FormationWebServicesBusiness.pdb
