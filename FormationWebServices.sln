@@ -3,7 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormationWebServices", "FormationWebServices\FormationWebServices.csproj", "{DCFC03E3-C0D3-4C0A-9DD9-C8F31D1A7900}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormationWebServices", "FormationWebServices\FormationWebServices.csproj", "{DCFC03E3-C0D3-4C0A-9DD9-C8F31D1A7900}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CBFBF4C9-A3DD-42FB-A219-39A3D6219DE8} = {CBFBF4C9-A3DD-42FB-A219-39A3D6219DE8}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FormationWebServices.Core", "FormationWebServices.Core", "{BB0277E6-78FD-4B92-BA07-CF852E9B7774}"
 EndProject
@@ -12,6 +15,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormationWebServicesData", "FormationWebServicesData\FormationWebServicesData.csproj", "{CBFBF4C9-A3DD-42FB-A219-39A3D6219DE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormationWebServicesDataTest", "FormationWebServicesDataTest\FormationWebServicesDataTest.csproj", "{A81800B1-0F34-4307-AD5E-495F4C2D09BF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4277A9EB-6BDD-4849-B50C-76F21ACE6FA5} = {4277A9EB-6BDD-4849-B50C-76F21ACE6FA5}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

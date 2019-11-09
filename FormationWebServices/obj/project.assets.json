@@ -4347,11 +4347,23 @@
       },
       "FormationWebServicesBusiness/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "FormationWebServicesData": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/FormationWebServicesBusiness.dll": {}
         },
         "runtime": {
           "bin/placeholder/FormationWebServicesBusiness.dll": {}
+        }
+      },
+      "FormationWebServicesData/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/FormationWebServicesData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FormationWebServicesData.dll": {}
         }
       }
     }
@@ -11838,6 +11850,11 @@
       "type": "project",
       "path": "../FormationWebServicesBusiness/FormationWebServicesBusiness.csproj",
       "msbuildProject": "../FormationWebServicesBusiness/FormationWebServicesBusiness.csproj"
+    },
+    "FormationWebServicesData/1.0.0": {
+      "type": "project",
+      "path": "../FormationWebServicesData/FormationWebServicesData.csproj",
+      "msbuildProject": "../FormationWebServicesData/FormationWebServicesData.csproj"
     }
   },
   "projectFileDependencyGroups": {

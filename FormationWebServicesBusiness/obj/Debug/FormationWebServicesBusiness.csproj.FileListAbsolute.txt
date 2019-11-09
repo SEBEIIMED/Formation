@@ -4,3 +4,12 @@ C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\ob
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\obj\Debug\FormationWebServicesBusiness.csproj.CoreCompileInputs.cache
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\obj\Debug\FormationWebServicesBusiness.dll
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\obj\Debug\FormationWebServicesBusiness.pdb
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\FormationWebServicesData.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\EntityFramework.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\netstandard.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\FormationWebServicesData.pdb
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\FormationWebServicesData.dll.config
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\System.ComponentModel.Annotations.xml
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\EntityFramework.xml
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\obj\Debug\FormationWebServicesBusiness.csproj.CopyComplete

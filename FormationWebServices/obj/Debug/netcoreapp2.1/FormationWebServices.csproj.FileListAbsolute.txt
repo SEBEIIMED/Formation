@@ -15,3 +15,6 @@ C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\obj\Debug\netcoreapp2.1\FormationWebServices.csprojAssemblyReference.cache
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServicesBusiness.pdb
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\obj\Debug\netcoreapp2.1\FormationWebServices.csproj.CopyComplete
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServicesData.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServicesData.pdb
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServicesData.dll.config
