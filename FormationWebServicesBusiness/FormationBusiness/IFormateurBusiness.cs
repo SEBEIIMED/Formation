@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FormationWebServicesBusiness.Models;
+using BusinessLayer.Models;
 
-namespace FormationWebServicesBusiness.FormationBusiness
+namespace BusinessLayer.FormationBusiness
 {
     #region Interface IFormateurBusiness-------------------------------------
     public interface IFormateurBusiness
     {
         #region Methods------------------------------------------------------
         FormateurDTO GetByName(string name);
-        FormateurDTO GetById(string id);
+        FormateurDTO GetById(int id);
         List<FormateurDTO> GetFormateurs();
         /// <summary>
         /// Méthode GetFormateursBySearchModel

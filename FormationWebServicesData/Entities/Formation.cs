@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace FormationWebServicesData.Entities
+namespace DataLayer.Entities
 {
     public class Formation 
     {

@@ -4345,25 +4345,25 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "FormationWebServicesBusiness/1.0.0": {
+      "BusinessLayer/1.0.0": {
         "type": "project",
         "dependencies": {
-          "FormationWebServicesData": "1.0.0"
+          "DataLayer": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/FormationWebServicesBusiness.dll": {}
+          "bin/placeholder/BusinessLayer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FormationWebServicesBusiness.dll": {}
+          "bin/placeholder/BusinessLayer.dll": {}
         }
       },
-      "FormationWebServicesData/1.0.0": {
+      "DataLayer/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/FormationWebServicesData.dll": {}
+          "bin/placeholder/DataLayer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FormationWebServicesData.dll": {}
+          "bin/placeholder/DataLayer.dll": {}
         }
       }
     }
@@ -11846,21 +11846,21 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "FormationWebServicesBusiness/1.0.0": {
+    "BusinessLayer/1.0.0": {
       "type": "project",
-      "path": "../FormationWebServicesBusiness/FormationWebServicesBusiness.csproj",
-      "msbuildProject": "../FormationWebServicesBusiness/FormationWebServicesBusiness.csproj"
+      "path": "../FormationWebServicesBusiness/BusinessLayer.csproj",
+      "msbuildProject": "../FormationWebServicesBusiness/BusinessLayer.csproj"
     },
-    "FormationWebServicesData/1.0.0": {
+    "DataLayer/1.0.0": {
       "type": "project",
-      "path": "../FormationWebServicesData/FormationWebServicesData.csproj",
-      "msbuildProject": "../FormationWebServicesData/FormationWebServicesData.csproj"
+      "path": "../FormationWebServicesData/DataLayer.csproj",
+      "msbuildProject": "../FormationWebServicesData/DataLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "BusinessLayer >= 1.0.0",
       "EntityFramework >= 6.2.0",
-      "FormationWebServicesBusiness >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 3.0.0",
@@ -11874,9 +11874,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AHMED\\source\\repos\\FormationWebServices\\FormationWebServices\\FormationWebServices.csproj",
-      "projectName": "FormationWebServices",
-      "projectPath": "C:\\Users\\AHMED\\source\\repos\\FormationWebServices\\FormationWebServices\\FormationWebServices.csproj",
+      "projectUniqueName": "C:\\Users\\AHMED\\source\\repos\\FormationWebServices\\FormationWebServices\\ServicesLayer.csproj",
+      "projectName": "ServicesLayer",
+      "projectPath": "C:\\Users\\AHMED\\source\\repos\\FormationWebServices\\FormationWebServices\\ServicesLayer.csproj",
       "packagesPath": "C:\\Users\\AHMED\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\AHMED\\source\\repos\\FormationWebServices\\FormationWebServices\\obj\\",
       "projectStyle": "PackageReference",
@@ -11897,8 +11897,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\AHMED\\source\\repos\\FormationWebServices\\FormationWebServicesBusiness\\FormationWebServicesBusiness.csproj": {
-              "projectPath": "C:\\Users\\AHMED\\source\\repos\\FormationWebServices\\FormationWebServicesBusiness\\FormationWebServicesBusiness.csproj"
+            "C:\\Users\\AHMED\\source\\repos\\FormationWebServices\\FormationWebServicesBusiness\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\AHMED\\source\\repos\\FormationWebServices\\FormationWebServicesBusiness\\BusinessLayer.csproj"
             }
           }
         }

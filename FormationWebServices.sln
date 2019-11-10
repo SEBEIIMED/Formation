@@ -3,21 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormationWebServices", "FormationWebServices\FormationWebServices.csproj", "{DCFC03E3-C0D3-4C0A-9DD9-C8F31D1A7900}"
-	ProjectSection(ProjectDependencies) = postProject
-		{CBFBF4C9-A3DD-42FB-A219-39A3D6219DE8} = {CBFBF4C9-A3DD-42FB-A219-39A3D6219DE8}
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FormationWebServices.Core", "FormationWebServices.Core", "{BB0277E6-78FD-4B92-BA07-CF852E9B7774}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormationWebServicesBusiness", "FormationWebServicesBusiness\FormationWebServicesBusiness.csproj", "{4277A9EB-6BDD-4849-B50C-76F21ACE6FA5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "FormationWebServicesBusiness\BusinessLayer.csproj", "{4277A9EB-6BDD-4849-B50C-76F21ACE6FA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormationWebServicesData", "FormationWebServicesData\FormationWebServicesData.csproj", "{CBFBF4C9-A3DD-42FB-A219-39A3D6219DE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "FormationWebServicesData\DataLayer.csproj", "{CBFBF4C9-A3DD-42FB-A219-39A3D6219DE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormationWebServicesDataTest", "FormationWebServicesDataTest\FormationWebServicesDataTest.csproj", "{A81800B1-0F34-4307-AD5E-495F4C2D09BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormationTest", "FormationWebServicesDataTest\FormationTest.csproj", "{A81800B1-0F34-4307-AD5E-495F4C2D09BF}"
 	ProjectSection(ProjectDependencies) = postProject
 		{4277A9EB-6BDD-4849-B50C-76F21ACE6FA5} = {4277A9EB-6BDD-4849-B50C-76F21ACE6FA5}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServices", "FormationWCFServices\WCFServices.csproj", "{423DEABE-3571-4B3C-B0F6-B763979E3FF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FormationServices", "FormationServices", "{FC800E65-C7E7-45F6-A1FD-2C4A22470648}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FormationIHM", "FormationIHM", "{3BA81F1E-AD24-47AE-B321-3C67CED485C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormationIHM", "FormationIHM\FormationIHM.csproj", "{EBC15F3C-B058-4EFA-80B5-B6CF51D0BBEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +28,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DCFC03E3-C0D3-4C0A-9DD9-C8F31D1A7900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DCFC03E3-C0D3-4C0A-9DD9-C8F31D1A7900}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DCFC03E3-C0D3-4C0A-9DD9-C8F31D1A7900}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DCFC03E3-C0D3-4C0A-9DD9-C8F31D1A7900}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4277A9EB-6BDD-4849-B50C-76F21ACE6FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4277A9EB-6BDD-4849-B50C-76F21ACE6FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4277A9EB-6BDD-4849-B50C-76F21ACE6FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +40,14 @@ Global
 		{A81800B1-0F34-4307-AD5E-495F4C2D09BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A81800B1-0F34-4307-AD5E-495F4C2D09BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A81800B1-0F34-4307-AD5E-495F4C2D09BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{423DEABE-3571-4B3C-B0F6-B763979E3FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423DEABE-3571-4B3C-B0F6-B763979E3FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423DEABE-3571-4B3C-B0F6-B763979E3FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423DEABE-3571-4B3C-B0F6-B763979E3FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC15F3C-B058-4EFA-80B5-B6CF51D0BBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC15F3C-B058-4EFA-80B5-B6CF51D0BBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC15F3C-B058-4EFA-80B5-B6CF51D0BBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC15F3C-B058-4EFA-80B5-B6CF51D0BBEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +56,8 @@ Global
 		{4277A9EB-6BDD-4849-B50C-76F21ACE6FA5} = {BB0277E6-78FD-4B92-BA07-CF852E9B7774}
 		{CBFBF4C9-A3DD-42FB-A219-39A3D6219DE8} = {BB0277E6-78FD-4B92-BA07-CF852E9B7774}
 		{A81800B1-0F34-4307-AD5E-495F4C2D09BF} = {BB0277E6-78FD-4B92-BA07-CF852E9B7774}
+		{423DEABE-3571-4B3C-B0F6-B763979E3FF7} = {FC800E65-C7E7-45F6-A1FD-2C4A22470648}
+		{EBC15F3C-B058-4EFA-80B5-B6CF51D0BBEC} = {3BA81F1E-AD24-47AE-B321-3C67CED485C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52E091FC-E0CB-418D-9330-56490AFF5070}

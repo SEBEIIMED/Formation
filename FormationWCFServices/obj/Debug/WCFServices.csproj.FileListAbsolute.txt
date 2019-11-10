@@ -1,0 +1,7 @@
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\WCFServices.dll.config
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\WCFServices.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\WCFServices.pdb
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\obj\Debug\WCFServices.csproj.CoreCompileInputs.cache
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\obj\Debug\WCFServices.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\obj\Debug\WCFServices.pdb
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\obj\Debug\WCFServices.csprojAssemblyReference.cache

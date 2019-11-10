@@ -18,3 +18,4 @@ C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\obj\Debug\
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServicesData.dll
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServicesData.pdb
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServicesData.dll.config
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServices\bin\Debug\netcoreapp2.1\FormationWebServicesBusiness.dll.config

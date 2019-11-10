@@ -13,3 +13,6 @@ C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bi
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\System.ComponentModel.Annotations.xml
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\EntityFramework.xml
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\obj\Debug\FormationWebServicesBusiness.csproj.CopyComplete
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\FormationWebServicesBusiness.dll.config
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesBusiness\bin\Debug\EntityFramework.SqlServer.xml

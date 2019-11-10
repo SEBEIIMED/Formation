@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace FormationWebServicesData.Entities
+namespace DataLayer.Entities
 {
     public class Participant:User
     {
+        public Participant() : base("", "", "")
+        {
+
+        }
     }
 }

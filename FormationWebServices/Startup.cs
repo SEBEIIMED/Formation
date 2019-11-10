@@ -12,7 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore; 
 
-namespace FormationWebServices
+namespace ServicesLayer
 {
     public class Startup
     {

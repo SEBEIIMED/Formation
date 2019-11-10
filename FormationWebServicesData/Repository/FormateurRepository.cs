@@ -1,45 +1,47 @@
-﻿using FormationWebServicesData.Context;
-using FormationWebServicesData.Entities;
+﻿using DataLayer.Context;
+using DataLayer.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace FormationWebServicesData.Repository
 {
-     //DataContext db = new DataContext();
+    #region Class FormateurRepository----------------------------------------
+    /// <summary>
+    /// FormateurRepository
+    /// </summary>
     public class FormateurRepository : GenericRepository<Formatteur>, IFormateurRepository
     {
         public FormateurRepository(DataContext context) : base(context)
         { }
-        public void  AddFormateur(string nom, string prenom)
+        public void AddFormateur(string nom, string prenom)
         {
             Formatteur formateur = new Formatteur() { first_name = nom, last_name = prenom };
             this.Add(formateur);
         }
 
-        public void GetById(string id)
+        public Formatteur GetById(int id)
         {
-            var formateur = this.Find(id);
-            return formateur;
+            return this.Find(s => s.GetHashCode() == id);
         }
 
-        public void GetByName(string nom)
+        public Formatteur GetByName(string name)
         {
-            var formateur = DataContext.formateur.where(x=>x.first_name==nom);
-            return formateur;
+            return this.Find(s => s.first_name == name);
         }
 
-        public void GetFormateurs()
+        public List<Formatteur> GetFormateurs()
         {
-            var formateur = DataContext.formateur.Tolist();
-            return formateur;
+            return this.GetAll().ToList();
         }
 
-        public void GetFormateursBySearchModel(FormateurSearchModel searchModel)
+        public List<Formatteur> GetFormateursBySearchModel(Expression<Func<Formatteur, bool>> expression)
         {
-            throw new NotImplementedException();
+            return this.FindAll(expression).ToList();
         }
     }
+    #endregion
 }

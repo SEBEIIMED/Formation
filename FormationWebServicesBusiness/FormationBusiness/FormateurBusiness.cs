@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using FormationWebServicesBusiness.Models;
+using BusinessLayer.Models;
+using DataLayer.Entities;
 using FormationWebServicesData.Repository;
 
-namespace FormationWebServicesBusiness.FormationBusiness
+namespace BusinessLayer.FormationBusiness
 {
     #region Class FormateurBusiness------------------------------------------
     /// <summary>
@@ -14,44 +16,54 @@ namespace FormationWebServicesBusiness.FormationBusiness
     /// </summary>
     public class FormateurBusiness : IFormateurBusiness
     {
-        public FormateurDTO  GetById(string id)
+        #region Attributs----------------------------------------------------
+        /// <summary>
+        /// Attribute FormateurRepository.
+        /// </summary>
+        private IFormateurRepository FormateurRepository = null;
+        #endregion
+        #region Constructor--------------------------------------------------
+        public FormateurBusiness(IFormateurRepository formateurRepository)
         {
-            using (FormationWebServicesData.Context.DataContext context = new FormationWebServicesData.Context.DataContext())
-            {
-                IFormateurRepository forrmateurRepository = new FormateurRepository(context);
-                forrmateurRepository.GetById("3");
-            }
-            return null;
+            this.FormateurRepository = formateurRepository;
+        }
+        #endregion
+        public FormateurDTO GetById(int id)
+        {
+            Formatteur formateur = this.FormateurRepository.GetById(id);
+
+            return new FormateurDTO(formateur);
         }
 
-        public FormateurDTO  GetByName(string name)
+        public FormateurDTO GetByName(string name)
         {
-            using (FormationWebServicesData.Context.DataContext context = new FormationWebServicesData.Context.DataContext())
-            {
-                IFormateurRepository forrmateurRepository = new FormateurRepository(context);
-                forrmateurRepository.GetByName("test1");
-            }
-            return null;
+            Formatteur formateur = this.FormateurRepository.GetByName(name);
+
+            return new FormateurDTO(formateur);
         }
 
-        public List<FormateurDTO>  GetFormateurs()
+        public List<FormateurDTO> GetFormateurs()
         {
-            using (FormationWebServicesData.Context.DataContext context = new FormationWebServicesData.Context.DataContext())
+            List<Formatteur> formateurs = this.FormateurRepository.GetFormateurs();
+            List<FormateurDTO> dtos = new List<FormateurDTO>();
+            foreach (var formateur in formateurs)
             {
-                IFormateurRepository forrmateurRepository = new FormateurRepository(context);
-                forrmateurRepository.GetFormateurs();
+                dtos.Add(new FormateurDTO(formateur));
             }
-            return null;
+            return dtos;
         }
 
-        public List<FormateurDTO>  GetFormateursBySearchModel(FormateurSearchModel searchModel)
+        public List<FormateurDTO> GetFormateursBySearchModel(FormateurSearchModel searchModel)
         {
-            using (FormationWebServicesData.Context.DataContext context = new FormationWebServicesData.Context.DataContext())
+            // L'idée ici est de transformer searchModel vers une function avec l'expression lambda et de l'utiliser au niveau de repository
+            Expression<Func<Formatteur, bool>> expression = x => x.first_name == searchModel.name;  // A crée ton expression
+            List<Formatteur> formateurs = this.FormateurRepository.GetFormateursBySearchModel(expression);
+            List<FormateurDTO> dtos = new List<FormateurDTO>();
+            foreach (var formateur in formateurs)
             {
-                IFormateurRepository forrmateurRepository = new FormateurRepository(context);
-                forrmateurRepository.GetFormateursBySearchModel();
+                dtos.Add(new FormateurDTO(formateur));
             }
-            return null;
+            return dtos;
         }
     }
     #endregion
