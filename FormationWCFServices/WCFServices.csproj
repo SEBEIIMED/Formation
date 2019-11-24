@@ -82,6 +82,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FormationWebServicesShared\ClassLibrary1\FormationWebservicesShared.csproj">
+      <Project>{ea8f287c-6325-4d6a-942a-b05aa4bd4dff}</Project>
+      <Name>FormationWebservicesShared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FormationWebServicesBusiness\BusinessLayer.csproj">
+      <Project>{4277A9EB-6BDD-4849-B50C-76F21ACE6FA5}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

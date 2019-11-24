@@ -23,6 +23,10 @@ namespace FormationIHM
         public MainWindow()
         {
             InitializeComponent();
+            // Menue de navigation.
+
+            // |Formateurs|Formation|Paramatres|Profil
+
         }
     }
 }

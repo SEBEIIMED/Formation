@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BusinessLayer.FormationBusiness;
+using FormationWebservicesShared;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -11,8 +13,11 @@ namespace WCFServices
     // REMARQUE : pour lancer le client test WCF afin de tester ce service, sélectionnez FormationServices.svc ou FormationServices.svc.cs dans l'Explorateur de solutions et démarrez le débogage.
     public class FormationServices : IFormationServices
     {
-        public void AddFormateur()
+        public void AddFormateur(FormateurExchange formateur)
         {
+            // déclaration de l'interface irepository
+           // IFormateurBusiness forrmateurBusiness = new  FormateurBusiness( );
+            //forrmateurBusiness.a ajoute AddFormateur dans le business
         }
     }
 }

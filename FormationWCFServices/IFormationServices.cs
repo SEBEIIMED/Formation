@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FormationWebservicesShared;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -12,6 +13,6 @@ namespace WCFServices
     public interface IFormationServices
     {
         [OperationContract]
-        void AddFormateur();
+        void AddFormateur(FormateurExchange formateur);
     }
 }

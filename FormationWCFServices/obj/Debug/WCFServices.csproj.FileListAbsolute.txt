@@ -5,3 +5,17 @@ C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\obj\Debug\
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\obj\Debug\WCFServices.dll
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\obj\Debug\WCFServices.pdb
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\obj\Debug\WCFServices.csprojAssemblyReference.cache
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\FormationWebServicesBusiness.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\FormationWebservicesShared.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\AccessDataLayer.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\System.ComponentModel.Annotations.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\EntityFramework.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\netstandard.dll
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\FormationWebservicesShared.pdb
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\FormationWebServicesBusiness.pdb
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\FormationWebServicesBusiness.dll.config
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\AccessDataLayer.pdb
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\AccessDataLayer.dll.config
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\System.ComponentModel.Annotations.xml
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\bin\EntityFramework.xml
+C:\Users\AHMED\source\repos\FormationWebServices\FormationWCFServices\obj\Debug\WCFServices.csproj.CopyComplete

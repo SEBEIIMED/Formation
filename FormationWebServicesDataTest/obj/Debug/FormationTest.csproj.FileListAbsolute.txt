@@ -1,4 +1,3 @@
-C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesDataTest\obj\Debug\FormationTest.csprojAssemblyReference.cache
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesDataTest\obj\Debug\FormationTest.csproj.CoreCompileInputs.cache
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesDataTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\AHMED\source\repos\FormationWebServices\FormationWebServicesDataTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
